@@ -28,6 +28,10 @@ header .top {
     width: 100%;
     height: 50px;
 }
+.main {
+    width: 50%;
+    float: left;
+}
 .downmenu {
     list-style: none;
     margin: 0px;
@@ -39,7 +43,7 @@ header .top {
     display: none;
     position: absolute;
     padding: 0px;
-    width: 139px;
+    width: 185px;
     margin-top: 32px;
 }
 .menu2-li {
@@ -54,7 +58,7 @@ header .top {
     color: #ffffff;    
     border: 2px solid transparent;
 }
-.menu2-li a:active {
+.menu2-li a.active {
     background: #343434;
 }
 .menu2-li .main-menu a:hover {
@@ -68,5 +72,145 @@ header .top {
 .submenu {
     background: #343434;
     list-style: none;
-    height: 35px;
+    height: 45px;
+}
+.submenu a {
+    line-height: 35px;
+}
+i {
+  border: ridge #ffffff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.logo h1 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.logo h1 a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+}
+.logo h1 .icon-tint {
+    color: #8fc04e;
+    border: none;
+}
+#intro {
+    background: url(images/intro-background.jpg);
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+#intro .banner-cont {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: rgba(0,0,0,0.6);
+}
+.banner-cont h1 {
+    color: #ffffff;
+    font-size: 64px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-top: 0px;
+}
+.banner-cont h3 {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.bannerTxt {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -77.5px;
+    margin-left: -363px;
+}
+.bannerBtn {
+    font-size: 15px;
+    background: #84c75b;
+    padding: 10px 32px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-top: 18px;
+    border-radius: 2px;
+}
+.bannerBtn:hover {
+    background: #86db52;
+}
+.mainCont {
+    width: 1200px;
+    margin: 0 auto;
+}
+.mainCont .row {
+    height: 250px;
+}
+.column {
+    width: 25%;
+}
+.clmn1, .clmn2, .clmn3, .clmn4 {
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.clmn1, .clmn2 {
+    background: #ccc
+}
+.clmn1 .icon, .clmn2 .icon, .clmn3 .icon, .clmn4 .icon {
+    text-align: center;
+    position: relative;
+    top: 51px;
+    width: 25%;
+    margin: 0 auto;
+}
+.clmn1 .text, .clmn2 .text, .clmn3 .text, .clmn4 .text {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    margin: 0 auto;
+}
+#content {
+    background: url(images/pat-1.png);
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+#content h4 {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+#content h4:hover {
+    color: #84c75b;
+}
+#content p {
+    font-size: 15px;
+}
+#content .more {
+    line-height: 1.6em;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+}
+#content .more:hover {
+    color: #84c75b;
 }
