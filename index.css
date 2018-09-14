@@ -170,7 +170,7 @@ i {
     width: 25%;
     height: 100%;
 }
-.clmn1, .clmn2 {
+.clmn1, .clmn2, .clmn3, .clmn4 {
     background: #ccc
 }
 .clmn1 .icon, .clmn2 .icon, .clmn3 .icon, .clmn4 .icon {
